@@ -8,7 +8,9 @@ module.exports = function(config) {
     coverageAnalysis: "off",
     mutate: [
         "src/**/*.js",
+        "src/**/*.ts",
         "!src/**/*.spec.js",
+        "!src/**/*.spec.ts",
         "!node_modules/**"
     ]
   });
