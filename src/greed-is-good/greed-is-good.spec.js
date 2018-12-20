@@ -28,3 +28,24 @@ test('[1,1,1,3,4] should be 1000', () => {
 test('[1,1,1,5,4] should be 1050', () => {
     expect(score([1,1,1,5,4])).toBe(1050);
 });
+
+test('[1,1,1,1,1] should be 1200', () => {
+    expect(score([1,1,1,1,1])).toBe(1200);
+});
+
+test('[5,5,5,5,5] should be 600', () => {
+    expect(score([5,5,5,5,5])).toBe(600);
+});
+
+test('[2,2,2,3,3] should be 200', () => {
+    expect(score([2,2,2,3,3])).toBe(200);
+});
+
+test('[3,3,3,2,2] should be 300', () => {
+    expect(score([3,3,3,2,2])).toBe(300);
+});
+
+test('[4,4,4,2,2] should be 400', () => {
+    expect(score([4,4,4,2,2])).toBe(400);
+});
+
