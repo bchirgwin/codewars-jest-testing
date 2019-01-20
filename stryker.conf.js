@@ -12,8 +12,8 @@ module.exports = function(config) {
         enableFindRelatedTests: true,
     },
     mutate: [
-        "src/02-age-verify/**",
-        "src/03-bowling-game/04a*",
+        "src/**/02-age-verify/**",
+        // "src/03-bowling-game/04a*",
         // "src/**/*.js",
         // "src/**/*.ts",
         "!src/**/*.spec.js",

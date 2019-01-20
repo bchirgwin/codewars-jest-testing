@@ -15,7 +15,6 @@ export class BowlingGame {
     let frameIndex = 0;
     for (let frame = 0; frame < 10; frame++)  {
       if (this.isSpare(frameIndex)) {
-        // spare
         score += 10 + this.rolls[frameIndex+2];
         frameIndex += 2;
       } else {
