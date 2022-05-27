@@ -145,14 +145,19 @@ module.exports = {
   // ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-  // testPathIgnorePatterns: [
-  //   "\\\\node_modules\\\\",
-  // ],
+  testPathIgnorePatterns: [
+    "\\\\node_modules\\\\",
+    "\\\\misc\\\\",
+    "\\\\src/code-wars\\\\",
+    "\\\\src/03-bowling-game\\\\",
+  ],
 
   // The regexp pattern Jest uses to detect test files
   // testRegex: "",
 
-  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|tsx?)$",
+  "testRegex": "age.*spec\.js",
+  // "testRegex": "04.*spec\.ts",
+  // "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|tsx?)$",
 
 
     // This option allows the use of a custom results processor
